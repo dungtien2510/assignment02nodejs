@@ -1,0 +1,45 @@
+.searchPopup {
+  width: 390px;
+  background-color: #fcc419;
+  padding: 20px;
+  border-radius: 15px;
+}
+.searchPopup-date__label,
+.searchPopup-destination__label {
+  display: block;
+  font-size: 18px;
+}
+.searchPopup input {
+  width: 100%;
+  height: 40px;
+}
+.searchPopup-destination {
+  margin: 20px auto;
+}
+.searchPopup-date {
+  margin: 20px auto;
+}
+.searchPopup-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #364fc7;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3rem;
+}
+.search-options__header {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.search-options__content input {
+  width: 70px;
+  height: 30px;
+}
+.search-options__content div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}

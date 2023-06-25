@@ -1,0 +1,87 @@
+.bookForm {
+  width: 1170px;
+  margin: 2rem auto 2rem auto;
+}
+.info {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header h2 {
+  margin-bottom: 0.5rem;
+  width: 30%;
+}
+.formReseve {
+  width: 65%;
+  margin-top: 0;
+}
+.bookForm h2 {
+  margin-bottom: 0.5rem;
+}
+.reseverInput label {
+  display: block;
+  margin-bottom: 5px;
+  color: #343a40;
+}
+.reseverInput input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+}
+.reseverInput {
+  margin-bottom: 1rem;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 10px;
+}
+.rooms {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+.roomNumbers {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+.roomNumbers label {
+  font-size: 14px;
+}
+.payment {
+  margin-top: 2rem;
+}
+
+.payment select {
+  height: 40px;
+  background-color: #e9ecef;
+  border: 1px solid #868e96;
+  width: 30%;
+  border-radius: 5px;
+  color: #495057;
+  margin-right: 50px;
+}
+.payment button {
+  height: 40px;
+  width: 15%;
+  color: #f8f9fa;
+  background-color: #1c7ed6;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.payment button:hover {
+  background-color: #1971c2;
+  cursor: pointer;
+}
+.payment .btnDisabled {
+  background-color: #868e96;
+}
+.payment .btnDisabled:hover {
+  background-color: #868e96;
+  cursor: auto;
+}

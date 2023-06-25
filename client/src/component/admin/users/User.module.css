@@ -1,0 +1,42 @@
+.users {
+  margin: 1rem 1rem;
+
+  padding: 1rem;
+  box-shadow: 5px 5px 20px #8888883b;
+}
+.users h2 {
+  color: #868e96;
+  font-weight: 500;
+  margin: 1rem auto 1rem 0;
+}
+.users thead {
+  background-color: #adb5bd;
+  color: white;
+}
+.users table,
+.users td,
+.users th {
+  border: 1.5px solid #ced4da;
+  padding: 5px;
+}
+.users table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.users span {
+  padding: 5px;
+  margin: 0 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #f1f3f5;
+}
+.users .noAdmin {
+  background-color: #ff6b6b;
+}
+.users .admin {
+  background-color: #51cf66;
+}

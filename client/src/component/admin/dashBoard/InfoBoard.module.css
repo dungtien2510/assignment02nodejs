@@ -1,0 +1,28 @@
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+.info div {
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #8888883b;
+  width: 100%;
+  position: relative;
+}
+.info div h5 {
+  color: #868e96;
+  margin-bottom: 1rem;
+}
+.info div p {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.info div svg {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+}

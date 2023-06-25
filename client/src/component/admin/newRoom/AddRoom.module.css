@@ -1,0 +1,49 @@
+.header,
+.addRoom form {
+  margin: 1rem 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 20px #8888883b;
+}
+
+.addRoom h3 {
+  color: #868e96;
+  font-weight: 500;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  gap: 10rem;
+}
+.addRoom form label {
+  display: block;
+}
+.addRoom form input,
+.addRoom form select {
+  border: none;
+  border-bottom: 1px solid #868e96;
+  width: 100%;
+  margin: 1rem 0.5rem 1.5rem 0.5rem;
+  height: 2rem;
+}
+.col {
+  width: 100%;
+}
+.row2 {
+  margin: 1rem;
+}
+.addRoom form button {
+  font-size: 18px;
+  color: #f8f9fa;
+  background-color: #1098ad;
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+}
+.addRoom form textarea {
+  border: 1px solid #868e96;
+  width: 100%;
+  margin: 1rem 0.5rem 1.5rem 0.5rem;
+  height: 5rem;
+}

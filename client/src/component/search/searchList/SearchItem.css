@@ -1,0 +1,63 @@
+.search-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 0 0 20px 20px;
+  column-gap: 1rem;
+}
+.search-item__content {
+  height: 100%;
+}
+.search-item__content .item-content__name {
+  color: #364fc7;
+  font-size: 24px;
+}
+.search-item__content .item-content__tag {
+  padding: 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  background-color: #37b24d;
+  color: #fff;
+}
+.search-item__content .item-content__free {
+  color: #37b24d;
+}
+.search-item__content div {
+  margin-bottom: 10px;
+}
+.search-item__price {
+  text-align: right;
+}
+.search-item__price .item-price__rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60%;
+}
+.item-price__rate .item-price__rateText {
+  font-size: 18px;
+}
+.item-price__rate .item-price__rateNumber {
+  padding: 5px;
+  background-color: #364fc7;
+  color: #fff;
+}
+.search-item__price .item-price__price {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: right;
+}
+.search-item__price p {
+  color: #ccc;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.search-item__price .item-price__btn {
+  padding: 10px 30px;
+  background-color: #364fc7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+}

@@ -1,0 +1,26 @@
+.hotel {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.hotel-item__img {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.item-content__city {
+  margin: 0.5rem 0;
+}
+.item-content__price {
+  margin-bottom: 0.5rem;
+}
+#content-rate {
+  padding: 5px;
+  background-color: #364fc7;
+  color: #fff;
+  border-radius: 5px;
+}
+#content-type {
+  margin: 10px;
+  font-size: 18px;
+}

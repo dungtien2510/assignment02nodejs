@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+.layout main {
+  width: 100%;
+  margin: 4rem auto;
+  border-top: 1px solid #adb5bd;
+}

@@ -1,0 +1,5 @@
+.navbar-items {
+  display: flex;
+  column-gap: 5px;
+  margin: auto;
+}

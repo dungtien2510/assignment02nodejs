@@ -1,0 +1,14 @@
+.form-input__control {
+  width: 300px;
+  height: 40px;
+  border: 3px solid #f59f00;
+  border-radius: 5px;
+}
+.form-input__btn {
+  height: 40px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #748ffc;
+  color: #fff;
+}

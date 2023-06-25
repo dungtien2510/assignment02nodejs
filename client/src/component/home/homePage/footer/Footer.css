@@ -1,0 +1,15 @@
+.footer {
+  margin: auto;
+  width: 1170px;
+  margin: 3rem auto;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  color: #364fc7;
+}
+.footer-col {
+  list-style-type: none;
+}
+.footer-col li {
+  margin-bottom: 1rem;
+}

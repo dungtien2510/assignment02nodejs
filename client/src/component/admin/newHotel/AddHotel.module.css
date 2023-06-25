@@ -1,0 +1,73 @@
+.header,
+.addHotel form {
+  margin: 1rem 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 20px #8888883b;
+}
+
+.addHotel h3 {
+  color: #868e96;
+  font-weight: 500;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  gap: 10rem;
+}
+.addHotel form label {
+  display: block;
+}
+.row1 input,
+.row1 select {
+  border: none;
+  border-bottom: 1px solid #868e96;
+  width: 100%;
+  margin: 1rem 0.5rem 1.5rem 0.5rem;
+  height: 2rem;
+}
+.col {
+  width: 100%;
+}
+.row2 {
+  margin: 1rem;
+}
+.addHotel form button {
+  font-size: 18px;
+  color: #f8f9fa;
+  background-color: #1098ad;
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+}
+.addHotel form button:hover,
+.addHotel form button:active {
+  cursor: pointer;
+  background-color: #0c8599;
+}
+
+.checkbox {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: none;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #adb5bd;
+}
+.checkboxItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.checkboxItem label {
+  display: block;
+  width: 100%;
+}
+.checkboxItem label:hover,
+.checkboxItem label:active {
+  background-color: #d0ebff;
+  color: #1864ab;
+  cursor: pointer;
+}

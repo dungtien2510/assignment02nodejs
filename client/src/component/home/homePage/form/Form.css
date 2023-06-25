@@ -1,0 +1,16 @@
+.form {
+  margin: auto;
+  width: 1170px;
+  background-color: #364fc7;
+  margin-top: 5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 3rem 0;
+}
+.form-header {
+  margin-bottom: 1rem;
+}
+.form-header h1 {
+  margin-bottom: 1rem;
+}

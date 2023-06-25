@@ -1,0 +1,31 @@
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.detail-header__content div {
+  margin-bottom: 1rem;
+}
+.detail-header__content h2 {
+  margin-bottom: 1rem;
+}
+.detail-header__content .header-content__distance {
+  color: #364fc7;
+  font-weight: 500;
+}
+.detail-header__content .header-content__price {
+  color: #37b24d;
+  font-weight: 500;
+}
+.detail-header__content .header-content__address {
+  font-size: 14px;
+}
+.detail-header__btn {
+  padding: 10px 20px;
+  background-color: #364fc7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}

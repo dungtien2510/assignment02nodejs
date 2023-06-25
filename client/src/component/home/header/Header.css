@@ -1,0 +1,16 @@
+.header {
+  width: 1170px;
+  margin: auto;
+  background-color: #364fc7;
+  color: #fff;
+  padding: 3rem 1rem;
+  position: relative;
+}
+.header-container__btn {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #748ffc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}

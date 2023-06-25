@@ -1,0 +1,29 @@
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.navbar-header__button {
+  display: flex;
+  column-gap: 1rem;
+}
+.navbar-header__button a {
+  padding: 5px 10px;
+  color: rgb(34, 48, 124);
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.navbar-header__button a:hover,
+.navbar-header__button a:active {
+  cursor: pointer;
+}
+.navbar-header:hover,
+:active {
+  cursor: pointer;
+}
+.navbar-header__title a {
+  color: white;
+  text-decoration: none;
+}

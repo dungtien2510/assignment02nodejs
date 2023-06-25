@@ -1,0 +1,18 @@
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.city-item__img {
+  border-radius: 12px;
+}
+.city-item {
+  position: relative;
+}
+.city-content {
+  color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+}
